@@ -86,7 +86,7 @@ under the License.
    | This is a list of proxies which can be used on this machine to connect to the network.
    | Unless otherwise specified (by system property or command-line switch), the first proxy
    | specification in this list marked as active will be used.
-   |
+   |-->
  <proxies>
   <proxy>
       <active>true</active>
@@ -94,7 +94,7 @@ under the License.
       <host>localhost</host>
       <port>6060</port> 
     </proxy>
-</proxies> -->
+</proxies> 
 
   <!-- servers
    | This is a list of authentication profiles, keyed by the server-id used within the system.
