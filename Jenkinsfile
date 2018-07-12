@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'master' { image 'maven:3.3.3' } }
+    agent { label 'build' { image 'maven:3.3.3' } }
     stages {
         stage('build') {
             steps {
