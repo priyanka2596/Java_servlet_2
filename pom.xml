@@ -23,16 +23,4 @@
         </plugin>
     </plugins>
 </build>
-	 <plugins>
-	<plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat7-maven-plugin</artifactId>
-    <version>3.4</version>
-    <configuration>
-        <url>localhost:8180/manager/text</url>
-        <server>TomcatServer</server>
-        <path>/Java_Pipeline</path>
-    </configuration>
-       </plugin>
-    </plugins>
   </project>
